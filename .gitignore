@@ -1,2 +1,39 @@
+# ==========================================
+# Entorno Virtual (¡El más importante!)
+# ==========================================
 venv/
+env/
+ENV/
+.venv/
+
+# ==========================================
+# Archivos generados por Python (Compilados)
+# ==========================================
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Base de Datos Local (SQLite)
+# ==========================================
+# Dejamos la base de datos local fuera de Git para que no subas datos de prueba.
 db.sqlite3
+db.sqlite3-journal
+
+# ==========================================
+# Archivos de configuración del Editor / IDE
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Archivos de entorno / Secretos
+# ==========================================
+# Si llegás a usar variables de entorno para ocultar el SECRET_KEY de Django
+.env
+.secrets
